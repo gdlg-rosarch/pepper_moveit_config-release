@@ -1,0 +1,8 @@
+ros-indigo-pepper-moveit-config (0.0.2-0saucy) saucy; urgency=high
+
+  * Creating moveit config
+  * Contributors: nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Wed, 21 Oct 2015 22:00:00 -0000
+
+
