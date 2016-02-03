@@ -1,0 +1,29 @@
+ros-indigo-pepper-moveit-config (0.0.3-0saucy) saucy; urgency=high
+
+  * update dependency list
+  * fixing controllers names
+  * Merge pull request #3 <https://github.com/ros-naoqi/pepper_moveit_config/issues/3> from 130s/add/botharms
+    Add botharms MoveGroup and a simple unit test
+  * Merge pull request #2 <https://github.com/ros-naoqi/pepper_moveit_config/issues/2> from 130s/selectable_moveitconfig
+    Accept .rviz file as an argument
+  * Add the simplest unit test
+  * Allow no RViz gui mode
+  * Add both_arms Move Group
+  * Accept .rviz file as an argument
+  * Merge pull request #1 <https://github.com/ros-naoqi/pepper_moveit_config/issues/1> from keulYSMB/master
+    added the version argument and use xacro command instead of one globa…
+  * added the version argument and use xacro command instead of one global URDF file to allow different configurations
+  * fixing the repository path
+  * fixing kinematics params
+  * Contributors: Isaac I.Y. Saito, Mikael Arguedas, Natalia Lyubova, nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Wed, 03 Feb 2016 08:00:00 -0000
+
+ros-indigo-pepper-moveit-config (0.0.2-0saucy) saucy; urgency=high
+
+  * Creating moveit config
+  * Contributors: nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Thu, 22 Oct 2015 07:00:00 -0000
+
+
