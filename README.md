@@ -1,3 +1,26 @@
+## pepper_moveit_config (indigo) - 0.0.4-2
+
+The packages in the `pepper_moveit_config` repository were released into the `indigo` distro by running `/usr/bin/bloom-release pepper_moveit_config --track indigo --rosdistro indigo` on `Sun, 18 Sep 2016 16:09:22 -0000`
+
+The `pepper_moveit_config` package was released.
+
+Version of package(s) in repository `pepper_moveit_config`:
+
+- upstream repository: https://github.com/nlyubova/pepper_moveit_config.git
+- release repository: https://github.com/ros-naoqi/pepper_moveit_config-release.git
+- rosdistro version: `0.0.4-1`
+- old version: `0.0.4-1`
+- new version: `0.0.4-2`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.39`
+
+
 ## pepper_moveit_config (jade) - 0.0.5-0
 
 The packages in the `pepper_moveit_config` repository were released into the `jade` distro by running `/usr/bin/bloom-release pepper_moveit_config --track jade --rosdistro jade` on `Thu, 21 Jul 2016 18:10:05 -0000`
