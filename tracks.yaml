@@ -21,7 +21,7 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://github.com/nlyubova/pepper_moveit_config.git
+    vcs_uri: https://github.com/ros-naoqi/pepper_moveit_config.git
     version: :{auto}
   jade:
     actions:
