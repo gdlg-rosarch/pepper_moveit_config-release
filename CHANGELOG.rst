@@ -2,6 +2,24 @@
 Changelog for package pepper_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.8 (2017-01-18)
+------------------
+* Merge pull request `#9 <https://github.com/ros-naoqi/pepper_moveit_config/issues/9>`_ from ros-naoqi/fix_warnings
+  Fix deprecated warnings
+* put parameters in proper namespace
+* use action rather than deprecated service. Use spaces instead of tabs
+* fix deprecated xacro call
+* Contributors: Mikael Arguedas, Natalia Lyubova
+
+0.0.7 (2016-12-21)
+------------------
+* fix allowed_execution_duration_scaling
+* fixing the robot visualization
+* changing the type of virtual_odom
+* fixing both arms
+* adding wheels as passive joints
+* Contributors: Natalia Lyubova
+
 0.0.6 (2016-09-18)
 ------------------
 * updating Octomap config to make compatible with pepper_sensors_py
