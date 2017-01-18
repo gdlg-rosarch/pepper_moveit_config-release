@@ -65,7 +65,7 @@
     <end_effector name="left_eef" parent_link="l_wrist" group="left_hand" />
     <end_effector name="right_eef" parent_link="r_wrist" group="right_hand" />
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
-    <virtual_joint name="virtual_odom" type="planar" parent_frame="odom" child_link="base_link" />
+    <virtual_joint name="virtual_odom" type="floating" parent_frame="odom" child_link="base_link" />
     <!--PASSIVE JOINT: Purpose: this element is used to mark joints that are not actuated-->
     <passive_joint name="virtual_odom" />
     <passive_joint name="LFinger11" />
@@ -96,6 +96,9 @@
     <passive_joint name="RFinger43" />
     <passive_joint name="RThumb1" />
     <passive_joint name="RThumb2" />
+    <passive_joint name="WheelFL" />
+    <passive_joint name="WheelFR" />
+    <passive_joint name="WheelB" />
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="Head" link2="Hip" reason="Never" />
     <disable_collisions link1="Head" link2="LShoulder" reason="Never" />
