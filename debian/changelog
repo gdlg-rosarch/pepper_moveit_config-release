@@ -1,0 +1,84 @@
+ros-kinetic-pepper-moveit-config (0.0.8-0jessie) jessie; urgency=high
+
+  * Merge pull request #9 <https://github.com/ros-naoqi/pepper_moveit_config/issues/9> from ros-naoqi/fix_warnings
+    Fix deprecated warnings
+  * put parameters in proper namespace
+  * use action rather than deprecated service. Use spaces instead of tabs
+  * fix deprecated xacro call
+  * Contributors: Mikael Arguedas, Natalia Lyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Tue, 17 Jan 2017 23:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.7-0jessie) jessie; urgency=high
+
+  * fix allowed_execution_duration_scaling
+  * fixing the robot visualization
+  * changing the type of virtual_odom
+  * fixing both arms
+  * adding wheels as passive joints
+  * Contributors: Natalia Lyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Tue, 20 Dec 2016 23:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.6-0jessie) jessie; urgency=high
+
+  * updating Octomap config to make compatible with pepper_sensors_py
+  * Update README.rst
+  * Merge pull request #6 <https://github.com/ros-naoqi/pepper_moveit_config/issues/6> from 130s/impr/default_safe_planner
+    Use RRT as default.
+  * Use RRT as default.
+  * Contributors: Isaac I.Y. Saito, Natalia Lyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Sat, 17 Sep 2016 22:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.5-0jessie) jessie; urgency=high
+
+  * removing the broken moveit_ros_visualization dependence
+  * adding disabled self-collisions and cleaning
+  * Merge pull request #5 <https://github.com/ros-naoqi/pepper_moveit_config/issues/5> from nlyubova/master
+    updating the tutorial
+  * updating the tutorial
+  * Merge pull request #4 <https://github.com/ros-naoqi/pepper_moveit_config/issues/4> from nlyubova/master
+    cleaning and launch file rename
+  * renaming demo_real.launch to moveit_planner.launch to keep the same naming convention as for Nao
+  * cleaning
+  * Contributors: Mikael Arguedas, Natalia Lyubova, nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Mon, 04 Jul 2016 22:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.4-0jessie) jessie; urgency=high
+
+  * remove pepper_meshes from dependency because license not displayed on buildfarm
+  * Contributors: Mikael Arguedas
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Tue, 02 Feb 2016 23:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.3-0jessie) jessie; urgency=high
+
+  * update dependency list
+  * fixing controllers names
+  * Merge pull request #3 <https://github.com/ros-naoqi/pepper_moveit_config/issues/3> from 130s/add/botharms
+    Add botharms MoveGroup and a simple unit test
+  * Merge pull request #2 <https://github.com/ros-naoqi/pepper_moveit_config/issues/2> from 130s/selectable_moveitconfig
+    Accept .rviz file as an argument
+  * Add the simplest unit test
+  * Allow no RViz gui mode
+  * Add both_arms Move Group
+  * Accept .rviz file as an argument
+  * Merge pull request #1 <https://github.com/ros-naoqi/pepper_moveit_config/issues/1> from keulYSMB/master
+    added the version argument and use xacro command instead of one globa…
+  * added the version argument and use xacro command instead of one global URDF file to allow different configurations
+  * fixing the repository path
+  * fixing kinematics params
+  * Contributors: Isaac I.Y. Saito, Mikael Arguedas, Natalia Lyubova, nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Tue, 02 Feb 2016 23:00:00 -0000
+
+ros-kinetic-pepper-moveit-config (0.0.2-0jessie) jessie; urgency=high
+
+  * Creating moveit config
+  * Contributors: nlyubova
+
+ -- Natalia Lyubova <natalia.lyubova@gmail.com>  Wed, 21 Oct 2015 22:00:00 -0000
+
+
